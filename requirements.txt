@@ -1,3 +1,0 @@
-pytorch_lightning
-transformers
-huggingface_hub
