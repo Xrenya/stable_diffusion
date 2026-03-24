@@ -18,5 +18,5 @@ Content:
 - Finetuning:
   - [x] DreamBooth
   - [x] LoRA
-  - [ ] LoRA + DreamBooth
+  - [X] LoRA + DreamBooth
 
