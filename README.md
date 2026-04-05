@@ -18,33 +18,33 @@ Introduction to Stable Diffusion
 - Weight-compatible models implemented:
   - [x] **SD1.x**
 
-  <table>
-    <tr>
-      <td align=”center”><b>txt2img</b></td>
-      <td align=”center”><b>Original</b></td>
-      <td align=”center”><b>img2img</b></td>
-    </tr>
-    <tr>
-      <td align=”center”><img src=”images/golden_castle.png” width=”256”></td>
-      <td align=”center”><img src=”images/original_cat.png” width=”256”></td>
-      <td align=”center”><img src=”images/cat_with_black_glasses.png” width=”256”></td>
-    </tr>
-  </table>
+<table>
+  <tr>
+    <th align="center"><b>txt2img</b></th>
+    <th align="center"><b>Original</b></th>
+    <th align="center"><b>img2img</b></th>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/golden_castle.png" width="256" alt="Golden Castle"></td>
+    <td align="center"><img src="images/original_cat.png" width="256" alt="Original Cat"></td>
+    <td align="center"><img src="images/cat_with_black_glasses.png" width="256" alt="Cat with Glasses"></td>
+  </tr>
+</table>
 
   - [x] **SD2.x**
 
-  <table>
-    <tr>
-      <td align=”center”><b>txt2img</b></td>
-      <td align=”center”><b>Original</b></td>
-      <td align=”center”><b>img2img</b></td>
-    </tr>
-    <tr>
-      <td align=”center”><img src=”images/castle.png” width=”256”></td>
-      <td align=”center”><img src=”images/original_cat.png” width=”256”></td>
-      <td align=”center”><img src=”images/cat_with_glasses.png” width=”256”></td>
-    </tr>
-  </table>
+<table>
+  <tr>
+    <td align="center"><b>txt2img</b></td>
+    <td align="center"><b>Original</b></td>
+    <td align="center"><b>img2img</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/castle.png" width="256"></td>
+    <td align="center"><img src="images/original_cat.png" width="256"></td>
+    <td align="center"><img src="images/cat_with_glasses.png" width="256"></td>
+  </tr>
+</table>
 
   - [x] **SD3.x**
 
