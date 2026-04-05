@@ -13,6 +13,14 @@ Introduction to Stable Diffusion
 Content:
 - Weight compatable models were implemented:
   - [x] SD1.x
+  <table>
+  <tr>
+    <td style="text-align: center; vertical-align: middle;"><img src="images/golden_castle.png" width="100%"></td>
+    <td style="text-align: center; vertical-align: middle;"><img src="images/original_cat.png" width="100%"></td>
+    <td style="text-align: center; vertical-align: middle;"><img src="images/cat_with_black_glasses.png" width="75%"></td>
+  </tr>
+  </table>
+  
   - [x] SD2.x
   <table>
   <tr>
@@ -21,6 +29,7 @@ Content:
     <td style="text-align: center; vertical-align: middle;"><img src="images/cat_with_glasses.png" width="100%"></td>
   </tr>
   </table>
+  
   - [x] SD3.x
 - Finetuning:
   - [x] DreamBooth
