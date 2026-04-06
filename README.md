@@ -47,7 +47,14 @@ Introduction to Stable Diffusion
 </table>
 
   - [x] **SD3.x**
-
+<table>
+  <tr>
+    <td align="center"><b>txt2img</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/sdxl.png" width="256"></td>
+  </tr>
+</table>
 - Finetuning:
   - [x] DreamBooth
   - [x] LoRA
