@@ -55,6 +55,7 @@ Introduction to Stable Diffusion
     <td align="center"><img src="images/sdxl.png" width="256"></td>
   </tr>
 </table>
+
 - Finetuning:
   - [x] DreamBooth
   - [x] LoRA
