@@ -56,8 +56,40 @@ Introduction to Stable Diffusion
   </tr>
 </table>
 
+  - [x] **SD1.x: DreamBooth + LoRA**
+
+<table>
+  <tr>
+    <th align="center"><b>Reference</b></th>
+    <th align="center"><b>Baseline</b></th>
+    <th align="center"><b>Finetunned</b></th>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/kusanagi_reference.png" width="256" height="256" alt="Golden Castle"></td>
+    <td align="center"><img src="images/kusanagi_baseline.png" width="256" height="256" alt="Original Cat"></td>
+    <td align="center"><img src="images/kusanagi_finetuned.png" width="256" height="256" alt="Cat with Glasses"></td>
+  </tr>
+</table>
+
 - Finetuning:
   - [x] DreamBooth
   - [x] LoRA
   - [x] LoRA + DreamBooth
 
+Process:
+```bash
+# uv is used for this project
+uv sync
+```
+Generate data for prior preservation:
+```python
+uv run python generate_data.py
+```
+Finetune the model:
+```python
+uv run python dreamboorh_lora_sd15.py
+```
+Inference:
+```python
+uv run python inference.py 
+```
