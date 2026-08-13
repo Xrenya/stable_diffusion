@@ -65,9 +65,10 @@ Introduction to Stable Diffusion
     <th align="center"><b>Finetunned</b></th>
   </tr>
   <tr>
-    <td align="center"><img src="images/kusanagi_reference.png" width="256" height="256" alt="Golden Castle"></td>
-    <td align="center"><img src="images/kusanagi_baseline.png" width="256" height="256" alt="Original Cat"></td>
-    <td align="center"><img src="images/kusanagi_finetuned.png" width="256" height="256" alt="Cat with Glasses"></td>
+    <td align="center"><img src="images/kusanagi_reference.png" width="256" height="256" alt="original image"></td>
+    <td align="center"><img src="images/kusanagi_baseline.png" width="256" height="256" alt="sd1.5 baseline"></td>
+    <td align="center"><img src="images/kusanagi_finetuned.png" width="256" height="256" alt="sd1.5"></td>
+    <td align="center"><img src="images/kusanagi_sd3.png" width="256" height="256" alt="sd3"></td>
   </tr>
 </table>
 
