@@ -62,7 +62,8 @@ Introduction to Stable Diffusion
   <tr>
     <th align="center"><b>Reference</b></th>
     <th align="center"><b>Baseline</b></th>
-    <th align="center"><b>Finetunned</b></th>
+    <th align="center"><b>Finetunned SD1.5</b></th>
+    <th align="center"><b>Finetunned SD3.5</b></th>
   </tr>
   <tr>
     <td align="center"><img src="images/kusanagi_reference.png" width="256" height="256" alt="original image"></td>
