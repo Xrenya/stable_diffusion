@@ -6,7 +6,7 @@ Introduction to Stable Diffusion
 |---|---|---|---|
 | **Architecture** | Latent Diffusion + UNet (~865 M params) + VAE | Same latent-diffusion core with larger UNet (≈860 M–1 B), tweaked attention blocks, optional depth & inpaint heads | Diffusion-Transformer (DiT-like) + Mixture-of-Experts, 800 M → 8 B params |
 | **Text encoder** | CLIP ViT-L/14 (OpenAI) | OpenCLIP ViT-G/14 (larger, open) | Triple encoder: CLIP-L + CLIP-G + T5-XXL — better long prompts & text rendering |
-| **Latent → pixel** | 64×64 → 512×512 | 96×96 → 768×768 | 128×128 → 1024×1024 |
+| **Latent => pixel** | 4x64×64 => 3x512×512 | 4x64/96×64/96 => 3x768×768 | 16x128×128 => 3x1024×1024 |
 | **Latent channels** | 4 | 4 | 16 |
 | **VAE scale** | 0.18215 | 0.18215 | scale 1.5305, shift 0.0609 |
 | **Training data** | LAION-2B subset (~2.3 B images) | LAION-5B aesthetic-filtered; fewer copyrighted terms | Proprietary + licensed stock; designed for accurate text & multi-object composition |
