@@ -1,6 +1,10 @@
 # Tutorial: Stable Diffusion — Generations at a Glance
 
-Introduction to Stable Diffusion
+### HuggingFace finetuned models:
+1. [Stable Diffusion 3.5](https://huggingface.co/Xrenya/TheGhostInTheShellSD3.5) finetuned and visual results
+2. [Stable Diffusion 1.5](https://huggingface.co/Xrenya/TheGhostInTheShellSD) finetuned and visual results
+
+## Introduction to Stable Diffusion
 
 The results of finetuning of SD3.5 looks really good and features like eye and hair passed to the generated images, compared to the same promt used for baseline model before finetuning. A realistic image was also generate and the color of hair was correctly represented except eyes but redish eyes might be difficult to be represented for realistic style since it is not common. The results of finetuning of SD1.5 can be found below as well. 
 
