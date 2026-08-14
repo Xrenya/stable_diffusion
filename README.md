@@ -2,6 +2,40 @@
 
 Introduction to Stable Diffusion
 
+The results of finetuning of SD3.5 looks really good and features like eye and hair passed to the generated images, compared to the same promt used for baseline model before finetuning. A realistic image was also generate and the color of hair was correctly represented except eyes but redish eyes might be difficult to be represented for realistic style since it is not common. The results of finetuning of SD1.5 can be found below as well. 
+
+Seed: 77
+<table>
+  <tr>
+    <th align="center"><b>Anime reference</b></th>
+    <th align="center"><b>SD3.5 anime kusanagi</b></th>
+    <th align="center"><b>SD3.5 anime ohwx kusanagi</b></th>
+    <th align="center"><b>Finetunned "anime ohwx kusanagi"</b></th>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/kusanagi_reference.png" width="256" height="256" alt="original image"></td>
+    <td align="center"><img src="images/baseline_seed_77_no_target_promt.png" width="256" height="256" alt="sd1.5 baseline"></td>
+    <td align="center"><img src="images/baseline_seed_77_target_promt.png" width="256" height="256" alt="sd1.5"></td>
+    <td align="center"><img src="images/finetuned_seed_77_target_promt.png" width="256" height="256" alt="sd3"></td>
+  </tr>
+</table>
+
+Seed: 42
+<table>
+  <tr>
+    <th align="center"><b>Anime reference</b></th>
+    <th align="center"><b>SD3.5 anime kusanagi</b></th>
+    <th align="center"><b>SD3.5 anime ohwx kusanagi</b></th>
+    <th align="center"><b>Finetunned "anime ohwx kusanagi"</b></th>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/kusanagi_reference.png" width="256" height="256" alt="original image"></td>
+    <td align="center"><img src="images/baseline_seed_42_no_target_promt.png" width="256" height="256" alt="sd1.5 baseline"></td>
+    <td align="center"><img src="images/baseline_seed_42_target_promt.png" width="256" height="256" alt="sd1.5"></td>
+    <td align="center"><img src="images/finetuned_seed_42_target_promt.png" width="256" height="256" alt="sd3"></td>
+  </tr>
+</table>
+
 | Feature | SD 1 (v1.x) | SD 2 (v2.x) | SD 3 (v3.x) |
 |---|---|---|---|
 | **Architecture** | Latent Diffusion + UNet (~865 M params) + VAE | Same latent-diffusion core with larger UNet (≈860 M–1 B), tweaked attention blocks, optional depth & inpaint heads | Diffusion-Transformer (DiT-like) + Mixture-of-Experts, 800 M → 8 B params |
